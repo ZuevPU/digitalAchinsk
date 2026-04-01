@@ -1,19 +1,18 @@
 {
   "event": {
-    "title": "VII цифровой форум системы образования Пермского края «ПроЦифру»",
-    "subtitle": "Очное участие. Материалы выступления Зуева Петра Юрьевича: лекция «Цифровая воспитательная среда» и мастер-класс «Цифровая трансформация».",
-    "location": "МАОУ «Фроловская средняя школа «Навигатор», Пермский край, Пермский муниципальный округ, село Фролы, ул. Светлая, дом 2",
-    "dates": "01 апреля 2026 года",
+    "title": "Цифровая трансформация образования и профессиональное развитие педагогов",
+    "subtitle": "Итоговая страница семинара: пленарные доклады, практические секции в формате «вертушка», работа с ИИ.",
+    "location": "г. Ачинск, МБОУ «Школа № 16 им. Героя Советского Союза И. А. Лапенкова»",
+    "dates": "26 марта 2026 года",
     "year": 2026,
     "audience": [
-      "участники цифрового форума системы образования Пермского края",
-      "педагогические работники и руководители ОО"
+      "директора и заместители директора ОО",
+      "учителя информатики (секции)",
+      "учителя-предметники (пленарная часть)"
     ]
   },
   "speakers": [
     {
-<<<<<<< HEAD
-=======
       "id": "rastvorov",
       "name": "Растворов Дмитрий Александрович",
       "organization": "Заместитель директора по региональному развитию и взаимодействию с органами государственной власти Яндекс Образования",
@@ -31,31 +30,57 @@
           "description": "Методическое сопровождение учителя информатики и прикладной разбор использования ИИ в работе педагога и администрации."
         }
       ],
-      "presentationUrl": "#",
-      "extraMaterials": ["Ссылки на экосистему Яндекс Учебник — link_to_be_added"]
+      "presentationUrl": "materials/Яндекс Образование для школ.pdf",
+      "extraMaterials": [
+        {
+          "label": "Платформа по ЕГЭ (информатика и математика) с нейропомощником",
+          "url": "https://education.yandex.ru/ege/inf"
+        },
+        {
+          "label": "Платформа для изучения информатики (ЭОР), ИИ-помощник учителя — Яндекс Учебник",
+          "url": "https://education.yandex.ru/uchebnik/main"
+        },
+        {
+          "label": "Репетитор ИИ по математике",
+          "url": "https://education.yandex.ru/tutor?utm_campaign=math_start&utm_term=support"
+        },
+        {
+          "label": "Всероссийский математический семинар, 31 марта 2026",
+          "url": "https://education.yandex.ru/ege/go/math/teacher/seminar"
+        },
+        {
+          "label": "Конференция для учителей информатики, 26 апреля 2026",
+          "url": "https://teacher.yandex.ru/konf-2026"
+        },
+        {
+          "label": "Гайд по промптингу",
+          "url": "https://education.yandex.ru/handbook/prompting"
+        },
+        {
+          "label": "Промтхаб",
+          "url": "https://alice.yandex.ru/prompthub"
+        }
+      ]
     },
     {
->>>>>>> parent of 5abe2be (4)
       "id": "zuev",
       "name": "Зуев Пётр Юрьевич",
       "organization": "Руководитель управления цифрового обучения АНО «Центр знаний „Машук“», победитель проекта «Флагманы образования»",
       "blocks": [
         {
-          "audience": "Лекция",
-          "topic": "«Цифровая воспитательная среда»",
-          "format": "очный формат · программа «ПроЦифру»",
-          "description": "Как устроить и развивать воспитательную среду школы с опорой на цифровые инструменты и практики.",
-          "presentationFile": "materials/01.04 Зуев Лекция.pptx"
+          "audience": "Пленарная часть",
+          "topic": "«Междисциплинарный подход к организации образовательного процесса»",
+          "format": "13:45–14:15 · актовый зал",
+          "description": "Как выстроить образовательный процесс с опорой на связь предметов и задач школы."
         },
         {
-          "audience": "Мастер-класс",
-          "topic": "«Цифровая трансформация»",
-          "format": "очный формат · программа «ПроЦифру»",
-          "description": "Прикладной разбор шагов и ориентиров цифровой трансформации образовательной организации.",
-          "presentationFile": "materials/01.04 Зуев Мастер-класс.pptx"
+          "audience": "Секция 2 · класс с ПК",
+          "topic": "«Три режима работы с ИИ: когда он помогает думать, а когда мешает»",
+          "format": "практикум · 15:30–16:55 · группы А и Б",
+          "description": "Практическая работа с режимами использования ИИ в учебной деятельности."
         }
       ],
-<<<<<<< HEAD
+      "presentationUrl": "зуев.pdf",
       "extraMaterials": [
         { "label": "Цифровой «Машук» — платформа онлайн-обучения", "url": "https://mashuk.online/" },
         { "label": "База знаний для работы с ИИ", "url": "https://mashuk.online/aihub" },
@@ -73,9 +98,6 @@
           "url": "https://lms.mashuk.online/listener/course_sessions/pedagogicheskii-marafon-pogruzhenie-v-professiu-08-28/register"
         }
       ]
-=======
-      "presentationUrl": "#",
-      "extraMaterials": ["Методические рекомендации — link_to_be_added", "Шаблон кейса — link_to_be_added"]
     },
     {
       "id": "lavrenteva",
@@ -89,24 +111,50 @@
           "description": "Системный взгляд на конкурсы профессионального мастерства: от подготовки до оформления опыта и развития карьеры педагога."
         }
       ],
-      "presentationUrl": "#",
-      "extraMaterials": ["Список ориентиров для участников — link_to_be_added"]
->>>>>>> parent of 5abe2be (4)
+      "presentationUrl": "для участников.pdf",
+      "extraMaterials": [
+        {
+          "label": "Полезные материалы участников проекта «Задача со звёздочкой»",
+          "url": "https://mpcenter.bitrix24.ru/~8CwGh"
+        },
+        { "label": "Учитель года России", "url": "https://vk.com/teacherofrussia" },
+        { "label": "Директор года России", "url": "https://vk.com/director_goda" },
+        { "label": "Воспитатель года России", "url": "https://vk.com/vospitatel_goda_rf" },
+        { "label": "Первый учитель", "url": "https://vk.com/1uchitel" }
+      ]
     }
   ],
   "materials": {
     "presentations": [
       {
-<<<<<<< HEAD
-        "title": "«Цифровая воспитательная среда» · лекция · П. Ю. Зуев",
-        "downloadUrl": "materials/01.04 Зуев Лекция.pptx"
+        "title": "Яндекс Образование для школ (Д. А. Растворов, пленар)",
+        "downloadUrl": "materials/Яндекс Образование для школ.pdf"
       },
       {
-        "title": "«Цифровая трансформация» · мастер-класс · П. Ю. Зуев",
-        "downloadUrl": "materials/01.04 Зуев Мастер-класс.pptx"
+        "title": "«Междисциплинарный подход к образовательному процессу» и «Три режима работы с ИИ» · П. Ю. Зуев",
+        "downloadUrl": "зуев.pdf"
+      },
+      {
+        "title": "«Профессиональные конкурсы: от А до Я» (В. А. Лаврентьева, пленар)",
+        "downloadUrl": "для участников.pdf"
       }
     ],
     "links": [
+      { "label": "Платформа по ЕГЭ (информатика и математика) с нейропомощником", "url": "https://education.yandex.ru/ege/inf" },
+      { "label": "Платформа для изучения информатики (ЭОР), ИИ-помощник учителя — Яндекс Учебник", "url": "https://education.yandex.ru/uchebnik/main" },
+      { "label": "Репетитор ИИ по математике", "url": "https://education.yandex.ru/tutor?utm_campaign=math_start&utm_term=support" },
+      { "label": "Всероссийский математический семинар, 31 марта 2026 (сертификаты участника)", "url": "https://education.yandex.ru/ege/go/math/teacher/seminar" },
+      { "label": "Конференция для учителей информатики, 26 апреля 2026", "url": "https://teacher.yandex.ru/konf-2026" },
+      { "label": "Гайд по промптингу", "url": "https://education.yandex.ru/handbook/prompting" },
+      { "label": "Промтхаб", "url": "https://alice.yandex.ru/prompthub" },
+      { "label": "Цифровой «Машук» — платформа онлайн-обучения", "url": "https://mashuk.online/" }
+    ],
+    "files": [
+      { "label": "DataLens", "url": "https://datalens.ru/" },
+      {
+        "label": "Бесплатное обучение DataLens (Яндекс Облако)",
+        "url": "https://yandex.cloud/ru/training/datalens?utm_referrer=about%3Ablank"
+      },
       { "label": "Цифровой «Машук» — платформа онлайн-обучения", "url": "https://mashuk.online/" },
       { "label": "База знаний для работы с ИИ", "url": "https://mashuk.online/aihub" },
       { "label": "Официальная группа ВК: Центр знаний «Машук»", "url": "https://vk.com/czmashuk" },
@@ -121,39 +169,15 @@
       {
         "label": "Курс «Педагогический марафон: погружение в профессию»",
         "url": "https://lms.mashuk.online/listener/course_sessions/pedagogicheskii-marafon-pogruzhenie-v-professiu-08-28/register"
+      },
+      { "label": "Учитель года России (ВКонтакте)", "url": "https://vk.com/teacherofrussia" },
+      { "label": "Директор года России (ВКонтакте)", "url": "https://vk.com/director_goda" },
+      { "label": "Воспитатель года России (ВКонтакте)", "url": "https://vk.com/vospitatel_goda_rf" },
+      { "label": "Первый учитель (ВКонтакте)", "url": "https://vk.com/1uchitel" },
+      {
+        "label": "Полезные материалы участников проекта «Задача со звёздочкой» (В. А. Лаврентьева)",
+        "url": "https://mpcenter.bitrix24.ru/~8CwGh"
       }
-    ],
-    "files": []
-=======
-        "title": "Возможности Яндекс Образования для муниципалитета и школы (Д. А. Растворов, пленар)",
-        "downloadUrl": "#"
-      },
-      {
-        "title": "Секции: Яндекс Учебник / ИИ в практике (Д. А. Растворов)",
-        "downloadUrl": "#"
-      },
-      {
-        "title": "Междисциплинарный подход к образовательному процессу (П. Ю. Зуев, пленар)",
-        "downloadUrl": "#"
-      },
-      {
-        "title": "Три режима работы с ИИ (П. Ю. Зуев, практикум)",
-        "downloadUrl": "#"
-      },
-      {
-        "title": "Профессиональные конкурсы: от А до Я (В. А. Лаврентьева, пленар)",
-        "downloadUrl": "#"
-      }
-    ],
-    "links": [
-      { "label": "Яндекс Учебник — link_to_be_added", "url": "#" },
-      { "label": "Центр знаний «Машук» — link_to_be_added", "url": "#" },
-      { "label": "Материалы регионального методического кабинета — link_to_be_added", "url": "#" }
-    ],
-    "files": [
-      { "label": "PDF: памятка по междисциплинарности — link_to_be_added", "url": "#" },
-      { "label": "Методичка: кейсы для проектной работы — link_to_be_added", "url": "#" }
     ]
->>>>>>> parent of 5abe2be (4)
   }
 }

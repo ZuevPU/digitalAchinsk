@@ -1,5 +1,5 @@
 /* ============================================
-   Страница форума «ПроЦифру» — базовые стили (модульные секции)
+   Семинар — базовые стили (модульные секции)
    ============================================ */
 
 :root {
@@ -281,9 +281,7 @@ img {
 
 @media (min-width: 900px) {
   .grid--speakers {
-    grid-template-columns: 1fr;
-    max-width: 48rem;
-    margin-inline: auto;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -396,6 +394,18 @@ img {
   color: var(--color-text-muted);
 }
 
+.speaker-card__extra-list--links li {
+  margin-bottom: 0.5rem;
+}
+
+.speaker-card__extra-list--links li:last-child {
+  margin-bottom: 0;
+}
+
+.speaker-card__extra-list--links a {
+  word-break: break-word;
+}
+
 /* --- Materials --- */
 .materials {
   display: grid;
@@ -404,7 +414,7 @@ img {
 
 @media (min-width: 768px) {
   .materials {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
